@@ -20,7 +20,7 @@ spec:
         tier: service
     spec:
       containers:
-        - image: manru3/pages:monitor
+        - image: manru3/pages:distributed
           name: pages
           ports:
             - containerPort: 8080
